@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container-header {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.container-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 120px 40px;
+}
+
+/* NAVIGATION */
+
+.header {
+  background-color: #1f2937;
+}
+
+.nav {
+  padding: 18px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  list-style-type: none;
+}
+
+.navbar li a {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+  margin-left: 24px;
+}
+
+/* HERO SECTION */
+.hero {
+  background-color: #1f2937;
+  padding: 100px 0;
+}
+
+.hero-wrapper {
+  display: flex;
+  gap: 32px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #fff;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #e5e7eb;
+  line-height: 24px;
+}
+
+.btn-hero {
+  margin-top: 18px;
+  background-color: #3882f6;
+  color: #fff;
+  padding: 6px 28px;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 8px;
+  border: solid #3882f6;
+}
+
+/* INFORMATION */
+
+.info {
+  text-align: center;
+}
+
+.info h2 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  margin-bottom: 40px;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-between;
+  /* gap: 32px; */
+}
+
+.box p {
+  margin-top: 12px;
+  max-width: 150px;
+  color: #5d5e5f;
+}
+
+/* QUOTE */
+
+.quote {
+  background-color: #e5e7eb;
+  /* padding: 120px 0; */
+}
+
+.quote-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  color: #1f2937;
+}
+
+.author {
+  font-size: 24px;
+  font-weight: 600;
+  align-self: flex-end;
+}
+
+/* CALL TO ACTION */
+
+.cta-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 32px;
+  background-color: #3882f6;
+  color: #fff;
+}
